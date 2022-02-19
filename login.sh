@@ -5,4 +5,4 @@ echo "please enter your name"
 read name
 echo "please enter your password"
 read -s password
-echo "you have succesfully login"
+echo "you have loging succesfully"
