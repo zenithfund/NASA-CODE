@@ -5,4 +5,9 @@ echo "please enter your name"
 read name
 echo "please enter your password"
 read -s password
-echo "you have loging succesfully"
+if [ $password = 12345 ]
+then 
+	echo "password verified" 
+else
+	echo "you entered the wrong password please try again"
+fi
